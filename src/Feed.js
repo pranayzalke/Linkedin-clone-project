@@ -19,7 +19,7 @@ function Feed() {
             setPosts(JSON.parse(postsFromLocalStorage));
         }
         //This code will remove the posts from the localStorage. 
-       // localStorage.removeItem("posts");
+        //localStorage.removeItem("posts");
     }, [])
 
   const submitPost=(e) => {
